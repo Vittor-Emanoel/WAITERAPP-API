@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import path from 'node:path';
 
 import { router } from './router';
-mongoose.connect('mongodb+srv://vittoremanoel1234:300321Vb@adm.9nqddas.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect()
   .then(() => {
     const app = express();
 
